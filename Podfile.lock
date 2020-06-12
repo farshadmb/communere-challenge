@@ -1,5 +1,5 @@
 PODS:
-  - CryptoSwift (1.1.3)
+  - CryptoSwift (1.1.2)
   - Differentiator (4.0.1)
   - KeyboardObserver (2.1.0)
   - MaterialComponents (107.0.0):
@@ -642,7 +642,7 @@ PODS:
   - SwiftLint (0.39.1)
 
 DEPENDENCIES:
-  - CryptoSwift (~> 1.1.2)
+  - CryptoSwift (= 1.1.2)
   - KeyboardObserver
   - MaterialComponents
   - RealmSwift
@@ -678,7 +678,7 @@ SPEC REPOS:
     - SwiftLint
 
 SPEC CHECKSUMS:
-  CryptoSwift: 6b6e488df0598b3e9fa49254ed1a65e8c1b1e10b
+  CryptoSwift: 31dacd1f13427439ddae5b5cbaae4c8dbc43047e
   Differentiator: 886080237d9f87f322641dedbc5be257061b0602
   KeyboardObserver: 338f87db88f4d6f4b4af334fe025bc824251d57b
   MaterialComponents: 68cf56c02292bd241c4a78bc17259318a238aae0
@@ -698,6 +698,6 @@ SPEC CHECKSUMS:
   RxSwiftExt: 4ca80336f43c28f11a2825cdd2fc61dd6c044697
   SwiftLint: 55e96a4a4d537d4a3156859fc1c54bd24851a046
 
-PODFILE CHECKSUM: dd3909014cee4267d66ad56dee9461a524440cd7
+PODFILE CHECKSUM: 66094ae45065f5a16e69f3c4b48a03a7d327968f
 
 COCOAPODS: 1.9.0

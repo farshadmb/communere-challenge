@@ -17,7 +17,7 @@ target 'commurnere-challenge' do
   pod 'RealmSwift'
   pod 'MaterialComponents'
   pod 'SwiftLint'
-  pod 'CryptoSwift', '~> 1.1.2'
+  pod 'CryptoSwift', '1.1.2'
   pod 'KeyboardObserver'
   pod 'RouteComposer', '2.3.2'
 
