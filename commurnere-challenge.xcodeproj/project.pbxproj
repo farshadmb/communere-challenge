@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		89AC5BE31BF7C419F2079C37 /* Pods_commurnere_challenge_commurnere_challengeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4709B1F1146D0F2064FEF944 /* Pods_commurnere_challenge_commurnere_challengeUITests.framework */; };
+		9A076872DB72062D32B52DE1 /* Pods_commurnere_challengeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFB934664BF02F107EEB8084 /* Pods_commurnere_challengeTests.framework */; };
+		D84E743151E51D94C9FD0164 /* Pods_commurnere_challenge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93BF4C71AFB4B2AFF5E921DB /* Pods_commurnere_challenge.framework */; };
 		F80D1138249302D300C212EB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F80D1137249302D300C212EB /* AppDelegate.swift */; };
 		F80D113A249302D300C212EB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F80D1139249302D300C212EB /* ViewController.swift */; };
 		F80D113D249302D300C212EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F80D113B249302D300C212EB /* Main.storyboard */; };
@@ -34,6 +37,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2AB2B9455585AF5E3382D29F /* Pods-commurnere-challenge-commurnere-challengeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-commurnere-challenge-commurnere-challengeUITests.release.xcconfig"; path = "Target Support Files/Pods-commurnere-challenge-commurnere-challengeUITests/Pods-commurnere-challenge-commurnere-challengeUITests.release.xcconfig"; sourceTree = "<group>"; };
+		4709B1F1146D0F2064FEF944 /* Pods_commurnere_challenge_commurnere_challengeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_commurnere_challenge_commurnere_challengeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		55D69FB41F89797F0FEF1BA8 /* Pods-commurnere-challenge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-commurnere-challenge.debug.xcconfig"; path = "Target Support Files/Pods-commurnere-challenge/Pods-commurnere-challenge.debug.xcconfig"; sourceTree = "<group>"; };
+		93BF4C71AFB4B2AFF5E921DB /* Pods_commurnere_challenge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_commurnere_challenge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E60ADA5F9C7DBA572696D30 /* Pods-commurnere-challengeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-commurnere-challengeTests.release.xcconfig"; path = "Target Support Files/Pods-commurnere-challengeTests/Pods-commurnere-challengeTests.release.xcconfig"; sourceTree = "<group>"; };
+		AB16806A0110DAA1FE3D01EF /* Pods-commurnere-challenge-commurnere-challengeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-commurnere-challenge-commurnere-challengeUITests.debug.xcconfig"; path = "Target Support Files/Pods-commurnere-challenge-commurnere-challengeUITests/Pods-commurnere-challenge-commurnere-challengeUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		BFB934664BF02F107EEB8084 /* Pods_commurnere_challengeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_commurnere_challengeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4A21F78AB6DC77814D5D1C6 /* Pods-commurnere-challengeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-commurnere-challengeTests.debug.xcconfig"; path = "Target Support Files/Pods-commurnere-challengeTests/Pods-commurnere-challengeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E5AC5A93EEB97653BFB3D145 /* Pods-commurnere-challenge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-commurnere-challenge.release.xcconfig"; path = "Target Support Files/Pods-commurnere-challenge/Pods-commurnere-challenge.release.xcconfig"; sourceTree = "<group>"; };
 		F80D1134249302D300C212EB /* commurnere-challenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "commurnere-challenge.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F80D1137249302D300C212EB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F80D1139249302D300C212EB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -54,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D84E743151E51D94C9FD0164 /* Pods_commurnere_challenge.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A076872DB72062D32B52DE1 /* Pods_commurnere_challengeTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +82,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				89AC5BE31BF7C419F2079C37 /* Pods_commurnere_challenge_commurnere_challengeUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		382640C8D517531DDE4EC42F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				55D69FB41F89797F0FEF1BA8 /* Pods-commurnere-challenge.debug.xcconfig */,
+				E5AC5A93EEB97653BFB3D145 /* Pods-commurnere-challenge.release.xcconfig */,
+				AB16806A0110DAA1FE3D01EF /* Pods-commurnere-challenge-commurnere-challengeUITests.debug.xcconfig */,
+				2AB2B9455585AF5E3382D29F /* Pods-commurnere-challenge-commurnere-challengeUITests.release.xcconfig */,
+				D4A21F78AB6DC77814D5D1C6 /* Pods-commurnere-challengeTests.debug.xcconfig */,
+				9E60ADA5F9C7DBA572696D30 /* Pods-commurnere-challengeTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		4D2B0C2208FCC44C094847E7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				93BF4C71AFB4B2AFF5E921DB /* Pods_commurnere_challenge.framework */,
+				4709B1F1146D0F2064FEF944 /* Pods_commurnere_challenge_commurnere_challengeUITests.framework */,
+				BFB934664BF02F107EEB8084 /* Pods_commurnere_challengeTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		F80D112B249302D300C212EB = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +120,8 @@
 				F80D114B249302D400C212EB /* commurnere-challengeTests */,
 				F80D1156249302D400C212EB /* commurnere-challengeUITests */,
 				F80D1135249302D300C212EB /* Products */,
+				382640C8D517531DDE4EC42F /* Pods */,
+				4D2B0C2208FCC44C094847E7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -132,9 +173,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F80D115C249302D400C212EB /* Build configuration list for PBXNativeTarget "commurnere-challenge" */;
 			buildPhases = (
+				8E07D1CEF46CFDB577145876 /* [CP] Check Pods Manifest.lock */,
 				F80D1130249302D300C212EB /* Sources */,
 				F80D1131249302D300C212EB /* Frameworks */,
 				F80D1132249302D300C212EB /* Resources */,
+				75EACCD52C1227A18D206513 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +192,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F80D115F249302D400C212EB /* Build configuration list for PBXNativeTarget "commurnere-challengeTests" */;
 			buildPhases = (
+				8C693FCDE9BEB4DFD9CDB002 /* [CP] Check Pods Manifest.lock */,
 				F80D1144249302D400C212EB /* Sources */,
 				F80D1145249302D400C212EB /* Frameworks */,
 				F80D1146249302D400C212EB /* Resources */,
@@ -167,9 +211,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F80D1162249302D400C212EB /* Build configuration list for PBXNativeTarget "commurnere-challengeUITests" */;
 			buildPhases = (
+				522AA92ADE9015E65208FC00 /* [CP] Check Pods Manifest.lock */,
 				F80D114F249302D400C212EB /* Sources */,
 				F80D1150249302D400C212EB /* Frameworks */,
 				F80D1151249302D400C212EB /* Resources */,
+				0A0AE1CD944D33901717202A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -250,6 +296,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0A0AE1CD944D33901717202A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-commurnere-challenge-commurnere-challengeUITests/Pods-commurnere-challenge-commurnere-challengeUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-commurnere-challenge-commurnere-challengeUITests/Pods-commurnere-challenge-commurnere-challengeUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-commurnere-challenge-commurnere-challengeUITests/Pods-commurnere-challenge-commurnere-challengeUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		522AA92ADE9015E65208FC00 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-commurnere-challenge-commurnere-challengeUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		75EACCD52C1227A18D206513 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-commurnere-challenge/Pods-commurnere-challenge-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-commurnere-challenge/Pods-commurnere-challenge-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-commurnere-challenge/Pods-commurnere-challenge-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8C693FCDE9BEB4DFD9CDB002 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-commurnere-challengeTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8E07D1CEF46CFDB577145876 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-commurnere-challenge-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		F80D1130249302D300C212EB /* Sources */ = {
@@ -430,11 +579,13 @@
 		};
 		F80D115D249302D400C212EB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 55D69FB41F89797F0FEF1BA8 /* Pods-commurnere-challenge.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 638B4QA28J;
 				INFOPLIST_FILE = "commurnere-challenge/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -448,11 +599,13 @@
 		};
 		F80D115E249302D400C212EB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5AC5A93EEB97653BFB3D145 /* Pods-commurnere-challenge.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 638B4QA28J;
 				INFOPLIST_FILE = "commurnere-challenge/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -466,6 +619,7 @@
 		};
 		F80D1160249302D400C212EB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D4A21F78AB6DC77814D5D1C6 /* Pods-commurnere-challengeTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -487,6 +641,7 @@
 		};
 		F80D1161249302D400C212EB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E60ADA5F9C7DBA572696D30 /* Pods-commurnere-challengeTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +663,7 @@
 		};
 		F80D1163249302D400C212EB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB16806A0110DAA1FE3D01EF /* Pods-commurnere-challenge-commurnere-challengeUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -528,6 +684,7 @@
 		};
 		F80D1164249302D400C212EB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2AB2B9455585AF5E3382D29F /* Pods-commurnere-challenge-commurnere-challengeUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
