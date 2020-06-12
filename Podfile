@@ -1,11 +1,26 @@
 # Uncomment the next line to define a global platform for your project
-# platform :ios, '9.0'
+platform :ios, '10.0'
 
 target 'commurnere-challenge' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
 
   # Pods for commurnere-challenge
+
+  pod 'RealmSwift'
+  pod 'MaterialComponents'
+  pod 'SwiftLint'
+  pod 'CryptoSwift'
+  pod 'KeyboardObserver'
+  pod 'RouteComposer', '2.3.2'
+
+  #Reactive Programing 
+  pod 'RxSwift'
+  pod 'RxCocoa'
+  pod 'RxGesture'
+  pod 'RxDataSources'
+  pod 'RxKeyboard'
+  pod 'RxSwiftExt'
 
   target 'commurnere-challengeTests' do
     inherit! :search_paths
