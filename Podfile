@@ -20,6 +20,9 @@ target 'commurnere-challenge' do
   pod 'CryptoSwift', '1.1.2'
   pod 'KeyboardObserver'
   pod 'RouteComposer', '2.3.2'
+  
+  #Logger Framework
+  pod 'CocoaLumberjack/Swift'
 
   #Reactive Programing 
   pod 'RxSwift'
