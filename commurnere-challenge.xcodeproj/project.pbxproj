@@ -17,6 +17,18 @@
 		F80D1142249302D400C212EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F80D1140249302D400C212EB /* LaunchScreen.storyboard */; };
 		F80D114D249302D400C212EB /* commurnere_challengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F80D114C249302D400C212EB /* commurnere_challengeTests.swift */; };
 		F80D1158249302D400C212EB /* commurnere_challengeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F80D1157249302D400C212EB /* commurnere_challengeUITests.swift */; };
+		F83CB0A224932EC400D28CF3 /* AppRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F83CB0A124932EC400D28CF3 /* AppRouter.swift */; };
+		F8658C83249311C90077CFF6 /* UIView+Nib.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8658C82249311C90077CFF6 /* UIView+Nib.swift */; };
+		F8658C85249315840077CFF6 /* UIViewController+ClassName.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8658C84249315840077CFF6 /* UIViewController+ClassName.swift */; };
+		F8658C88249319560077CFF6 /* AppRouterLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8658C87249319560077CFF6 /* AppRouterLogger.swift */; };
+		F8658C8C24931A490077CFF6 /* AppLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8658C8B24931A490077CFF6 /* AppLogger.swift */; };
+		F8658C8F24931F180077CFF6 /* Route.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8658C8E24931F180077CFF6 /* Route.swift */; };
+		F8658C9224931FE50077CFF6 /* UIStoryboard+Naming.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8658C9124931FE50077CFF6 /* UIStoryboard+Naming.swift */; };
+		F8658C94249320670077CFF6 /* StoryboardFactory+NamingConstructor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8658C93249320670077CFF6 /* StoryboardFactory+NamingConstructor.swift */; };
+		F885B3592493334B00D7A782 /* AppRouterableProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = F885B3582493334B00D7A782 /* AppRouterableProtocol.swift */; };
+		F885B35B2493342F00D7A782 /* AnyDestionationStep.swift in Sources */ = {isa = PBXBuildFile; fileRef = F885B35A2493342F00D7A782 /* AnyDestionationStep.swift */; };
+		F885B35E2493419700D7A782 /* String+EmptyChecking.swift in Sources */ = {isa = PBXBuildFile; fileRef = F885B35D2493419700D7A782 /* String+EmptyChecking.swift */; };
+		F885B3602493432800D7A782 /* Collection+Additionals.swift in Sources */ = {isa = PBXBuildFile; fileRef = F885B35F2493432800D7A782 /* Collection+Additionals.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +71,18 @@
 		F80D1153249302D400C212EB /* commurnere-challengeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "commurnere-challengeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F80D1157249302D400C212EB /* commurnere_challengeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = commurnere_challengeUITests.swift; sourceTree = "<group>"; };
 		F80D1159249302D400C212EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F83CB0A124932EC400D28CF3 /* AppRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppRouter.swift; sourceTree = "<group>"; };
+		F8658C82249311C90077CFF6 /* UIView+Nib.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Nib.swift"; sourceTree = "<group>"; };
+		F8658C84249315840077CFF6 /* UIViewController+ClassName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+ClassName.swift"; sourceTree = "<group>"; };
+		F8658C87249319560077CFF6 /* AppRouterLogger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppRouterLogger.swift; sourceTree = "<group>"; };
+		F8658C8B24931A490077CFF6 /* AppLogger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppLogger.swift; sourceTree = "<group>"; };
+		F8658C8E24931F180077CFF6 /* Route.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Route.swift; sourceTree = "<group>"; };
+		F8658C9124931FE50077CFF6 /* UIStoryboard+Naming.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIStoryboard+Naming.swift"; sourceTree = "<group>"; };
+		F8658C93249320670077CFF6 /* StoryboardFactory+NamingConstructor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "StoryboardFactory+NamingConstructor.swift"; sourceTree = "<group>"; };
+		F885B3582493334B00D7A782 /* AppRouterableProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppRouterableProtocol.swift; sourceTree = "<group>"; };
+		F885B35A2493342F00D7A782 /* AnyDestionationStep.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyDestionationStep.swift; sourceTree = "<group>"; };
+		F885B35D2493419700D7A782 /* String+EmptyChecking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+EmptyChecking.swift"; sourceTree = "<group>"; };
+		F885B35F2493432800D7A782 /* Collection+Additionals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Collection+Additionals.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,6 +161,7 @@
 		F80D1136249302D300C212EB /* commurnere-challenge */ = {
 			isa = PBXGroup;
 			children = (
+				F8658C7E249310E90077CFF6 /* Classes */,
 				F80D1137249302D300C212EB /* AppDelegate.swift */,
 				F80D1139249302D300C212EB /* ViewController.swift */,
 				F80D113B249302D300C212EB /* Main.storyboard */,
@@ -163,6 +188,97 @@
 				F80D1159249302D400C212EB /* Info.plist */,
 			);
 			path = "commurnere-challengeUITests";
+			sourceTree = "<group>";
+		};
+		F8658C7E249310E90077CFF6 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				F8658C7F249310F20077CFF6 /* Navigation */,
+				F8658C80249311AF0077CFF6 /* Extensions */,
+				F8658C89249319820077CFF6 /* Utilites */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		F8658C7F249310F20077CFF6 /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				F8658C8D24931EDC0077CFF6 /* Route */,
+				F8658C86249316200077CFF6 /* Router */,
+				F885B35A2493342F00D7A782 /* AnyDestionationStep.swift */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
+		F8658C80249311AF0077CFF6 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				F885B35C2493418600D7A782 /* Foundation */,
+				F8658C81249311B80077CFF6 /* UI Elements */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		F8658C81249311B80077CFF6 /* UI Elements */ = {
+			isa = PBXGroup;
+			children = (
+				F8658C82249311C90077CFF6 /* UIView+Nib.swift */,
+				F8658C84249315840077CFF6 /* UIViewController+ClassName.swift */,
+				F8658C9124931FE50077CFF6 /* UIStoryboard+Naming.swift */,
+			);
+			path = "UI Elements";
+			sourceTree = "<group>";
+		};
+		F8658C86249316200077CFF6 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				F8658C87249319560077CFF6 /* AppRouterLogger.swift */,
+				F83CB0A124932EC400D28CF3 /* AppRouter.swift */,
+				F885B3582493334B00D7A782 /* AppRouterableProtocol.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		F8658C89249319820077CFF6 /* Utilites */ = {
+			isa = PBXGroup;
+			children = (
+				F8658C9024931F8D0077CFF6 /* Navigation */,
+				F8658C8A24931A360077CFF6 /* Logger */,
+			);
+			path = Utilites;
+			sourceTree = "<group>";
+		};
+		F8658C8A24931A360077CFF6 /* Logger */ = {
+			isa = PBXGroup;
+			children = (
+				F8658C8B24931A490077CFF6 /* AppLogger.swift */,
+			);
+			path = Logger;
+			sourceTree = "<group>";
+		};
+		F8658C8D24931EDC0077CFF6 /* Route */ = {
+			isa = PBXGroup;
+			children = (
+				F8658C8E24931F180077CFF6 /* Route.swift */,
+			);
+			path = Route;
+			sourceTree = "<group>";
+		};
+		F8658C9024931F8D0077CFF6 /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				F8658C93249320670077CFF6 /* StoryboardFactory+NamingConstructor.swift */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
+		F885B35C2493418600D7A782 /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+				F885B35D2493419700D7A782 /* String+EmptyChecking.swift */,
+				F885B35F2493432800D7A782 /* Collection+Additionals.swift */,
+			);
+			path = Foundation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -404,8 +520,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F8658C94249320670077CFF6 /* StoryboardFactory+NamingConstructor.swift in Sources */,
+				F8658C9224931FE50077CFF6 /* UIStoryboard+Naming.swift in Sources */,
+				F8658C88249319560077CFF6 /* AppRouterLogger.swift in Sources */,
+				F885B35E2493419700D7A782 /* String+EmptyChecking.swift in Sources */,
+				F8658C85249315840077CFF6 /* UIViewController+ClassName.swift in Sources */,
 				F80D113A249302D300C212EB /* ViewController.swift in Sources */,
+				F885B35B2493342F00D7A782 /* AnyDestionationStep.swift in Sources */,
+				F8658C8C24931A490077CFF6 /* AppLogger.swift in Sources */,
+				F885B3592493334B00D7A782 /* AppRouterableProtocol.swift in Sources */,
 				F80D1138249302D300C212EB /* AppDelegate.swift in Sources */,
+				F8658C8F24931F180077CFF6 /* Route.swift in Sources */,
+				F83CB0A224932EC400D28CF3 /* AppRouter.swift in Sources */,
+				F885B3602493432800D7A782 /* Collection+Additionals.swift in Sources */,
+				F8658C83249311C90077CFF6 /* UIView+Nib.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
