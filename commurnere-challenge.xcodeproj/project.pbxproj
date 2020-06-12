@@ -19,6 +19,8 @@
 		F80D1158249302D400C212EB /* commurnere_challengeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F80D1157249302D400C212EB /* commurnere_challengeUITests.swift */; };
 		F8658C83249311C90077CFF6 /* UIView+Nib.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8658C82249311C90077CFF6 /* UIView+Nib.swift */; };
 		F8658C85249315840077CFF6 /* UIViewController+ClassName.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8658C84249315840077CFF6 /* UIViewController+ClassName.swift */; };
+		F8658C88249319560077CFF6 /* AppRouterLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8658C87249319560077CFF6 /* AppRouterLogger.swift */; };
+		F8658C8C24931A490077CFF6 /* AppLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8658C8B24931A490077CFF6 /* AppLogger.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +65,8 @@
 		F80D1159249302D400C212EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F8658C82249311C90077CFF6 /* UIView+Nib.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Nib.swift"; sourceTree = "<group>"; };
 		F8658C84249315840077CFF6 /* UIViewController+ClassName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+ClassName.swift"; sourceTree = "<group>"; };
+		F8658C87249319560077CFF6 /* AppRouterLogger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppRouterLogger.swift; sourceTree = "<group>"; };
+		F8658C8B24931A490077CFF6 /* AppLogger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppLogger.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -175,6 +179,7 @@
 			children = (
 				F8658C7F249310F20077CFF6 /* Navigation */,
 				F8658C80249311AF0077CFF6 /* Extensions */,
+				F8658C89249319820077CFF6 /* Utilites */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -207,8 +212,25 @@
 		F8658C86249316200077CFF6 /* Router */ = {
 			isa = PBXGroup;
 			children = (
+				F8658C87249319560077CFF6 /* AppRouterLogger.swift */,
 			);
 			path = Router;
+			sourceTree = "<group>";
+		};
+		F8658C89249319820077CFF6 /* Utilites */ = {
+			isa = PBXGroup;
+			children = (
+				F8658C8A24931A360077CFF6 /* Logger */,
+			);
+			path = Utilites;
+			sourceTree = "<group>";
+		};
+		F8658C8A24931A360077CFF6 /* Logger */ = {
+			isa = PBXGroup;
+			children = (
+				F8658C8B24931A490077CFF6 /* AppLogger.swift */,
+			);
+			path = Logger;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -450,8 +472,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F8658C88249319560077CFF6 /* AppRouterLogger.swift in Sources */,
 				F8658C85249315840077CFF6 /* UIViewController+ClassName.swift in Sources */,
 				F80D113A249302D300C212EB /* ViewController.swift in Sources */,
+				F8658C8C24931A490077CFF6 /* AppLogger.swift in Sources */,
 				F80D1138249302D300C212EB /* AppDelegate.swift in Sources */,
 				F8658C83249311C90077CFF6 /* UIView+Nib.swift in Sources */,
 			);
