@@ -17,6 +17,8 @@
 		F80D1142249302D400C212EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F80D1140249302D400C212EB /* LaunchScreen.storyboard */; };
 		F80D114D249302D400C212EB /* commurnere_challengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F80D114C249302D400C212EB /* commurnere_challengeTests.swift */; };
 		F80D1158249302D400C212EB /* commurnere_challengeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F80D1157249302D400C212EB /* commurnere_challengeUITests.swift */; };
+		F8658C83249311C90077CFF6 /* UIView+Nib.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8658C82249311C90077CFF6 /* UIView+Nib.swift */; };
+		F8658C85249315840077CFF6 /* UIViewController+ClassName.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8658C84249315840077CFF6 /* UIViewController+ClassName.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +61,8 @@
 		F80D1153249302D400C212EB /* commurnere-challengeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "commurnere-challengeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F80D1157249302D400C212EB /* commurnere_challengeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = commurnere_challengeUITests.swift; sourceTree = "<group>"; };
 		F80D1159249302D400C212EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F8658C82249311C90077CFF6 /* UIView+Nib.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Nib.swift"; sourceTree = "<group>"; };
+		F8658C84249315840077CFF6 /* UIViewController+ClassName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+ClassName.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,6 +141,7 @@
 		F80D1136249302D300C212EB /* commurnere-challenge */ = {
 			isa = PBXGroup;
 			children = (
+				F8658C7E249310E90077CFF6 /* Classes */,
 				F80D1137249302D300C212EB /* AppDelegate.swift */,
 				F80D1139249302D300C212EB /* ViewController.swift */,
 				F80D113B249302D300C212EB /* Main.storyboard */,
@@ -163,6 +168,47 @@
 				F80D1159249302D400C212EB /* Info.plist */,
 			);
 			path = "commurnere-challengeUITests";
+			sourceTree = "<group>";
+		};
+		F8658C7E249310E90077CFF6 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				F8658C7F249310F20077CFF6 /* Navigation */,
+				F8658C80249311AF0077CFF6 /* Extensions */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		F8658C7F249310F20077CFF6 /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				F8658C86249316200077CFF6 /* Router */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
+		F8658C80249311AF0077CFF6 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				F8658C81249311B80077CFF6 /* UI Elements */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		F8658C81249311B80077CFF6 /* UI Elements */ = {
+			isa = PBXGroup;
+			children = (
+				F8658C82249311C90077CFF6 /* UIView+Nib.swift */,
+				F8658C84249315840077CFF6 /* UIViewController+ClassName.swift */,
+			);
+			path = "UI Elements";
+			sourceTree = "<group>";
+		};
+		F8658C86249316200077CFF6 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Router;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -404,8 +450,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F8658C85249315840077CFF6 /* UIViewController+ClassName.swift in Sources */,
 				F80D113A249302D300C212EB /* ViewController.swift in Sources */,
 				F80D1138249302D300C212EB /* AppDelegate.swift in Sources */,
+				F8658C83249311C90077CFF6 /* UIView+Nib.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
