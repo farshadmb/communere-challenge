@@ -79,6 +79,9 @@ struct Logger {
     /// default instance of Logger
     static let `default` = Logger()
     
+    /// Default Constructor for Logger
+    /// Set Log Level depend on Scheme Configuration
+    /// Note: Debug Configuration level is all, otherwise leve is waring
     init() {
         
         #if DEBUG

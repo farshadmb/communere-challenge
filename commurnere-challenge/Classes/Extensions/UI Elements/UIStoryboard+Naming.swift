@@ -11,7 +11,11 @@ import UIKit
 
 extension UIStoryboard {
     
+    /// Storyboard Name
+    ///
+    /// - main: related to Main.storyboard
     enum Name: String, CaseIterable {
+        /// related to Main.storyboard
         case main = "Main"
     }
     

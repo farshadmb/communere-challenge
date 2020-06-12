@@ -9,12 +9,12 @@
 import Foundation
 import RouteComposer
 
+/// `AppRouterLogger` Class, log every navigation step which navigate into.
 struct AppRouterLogger: RouteComposer.Logger {
     
     /// Logs a message
     ///
-    /// - Parameters:
-    ///  - message: The `LogMessage` instance
+    /// - Parameter message: - message: The `LogMessage` instance
     func log(_ message: LogMessage) {
         switch message {
         case .warning(let message):

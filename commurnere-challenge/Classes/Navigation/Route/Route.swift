@@ -15,7 +15,8 @@ protocol Route {}
 
 extension Route {
     
-    static var navigationStep: SingleContainerStep<NilFinder<UINavigationController, Any?>, NavigationFactory<Any?>> {
+    /// default `UINavigationController` Destination Step.
+    static var defaultNavigationStep: SingleContainerStep<NilFinder<UINavigationController, Any?>, NavigationFactory<Any?>> {
         return SingleContainerStep(finder: NilFinder(),
                                    factory: NavigationFactory<Any?>(configuration: { (navigation: UINavigationController) in
                                     navigation.navigationBar.isTranslucent = false

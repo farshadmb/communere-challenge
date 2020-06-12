@@ -11,6 +11,7 @@ import UIKit
 
 extension UIViewController {
     
+    /// className of `UIViewController` class
     class var className: String {
         return String(describing: self)
     }
