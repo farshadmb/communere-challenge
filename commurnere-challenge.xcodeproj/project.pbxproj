@@ -27,6 +27,8 @@
 		F8658C94249320670077CFF6 /* StoryboardFactory+NamingConstructor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8658C93249320670077CFF6 /* StoryboardFactory+NamingConstructor.swift */; };
 		F885B3592493334B00D7A782 /* AppRouterableProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = F885B3582493334B00D7A782 /* AppRouterableProtocol.swift */; };
 		F885B35B2493342F00D7A782 /* AnyDestionationStep.swift in Sources */ = {isa = PBXBuildFile; fileRef = F885B35A2493342F00D7A782 /* AnyDestionationStep.swift */; };
+		F885B35E2493419700D7A782 /* String+EmptyChecking.swift in Sources */ = {isa = PBXBuildFile; fileRef = F885B35D2493419700D7A782 /* String+EmptyChecking.swift */; };
+		F885B3602493432800D7A782 /* Collection+Additionals.swift in Sources */ = {isa = PBXBuildFile; fileRef = F885B35F2493432800D7A782 /* Collection+Additionals.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -79,6 +81,8 @@
 		F8658C93249320670077CFF6 /* StoryboardFactory+NamingConstructor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "StoryboardFactory+NamingConstructor.swift"; sourceTree = "<group>"; };
 		F885B3582493334B00D7A782 /* AppRouterableProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppRouterableProtocol.swift; sourceTree = "<group>"; };
 		F885B35A2493342F00D7A782 /* AnyDestionationStep.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyDestionationStep.swift; sourceTree = "<group>"; };
+		F885B35D2493419700D7A782 /* String+EmptyChecking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+EmptyChecking.swift"; sourceTree = "<group>"; };
+		F885B35F2493432800D7A782 /* Collection+Additionals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Collection+Additionals.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -209,6 +213,7 @@
 		F8658C80249311AF0077CFF6 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				F885B35C2493418600D7A782 /* Foundation */,
 				F8658C81249311B80077CFF6 /* UI Elements */,
 			);
 			path = Extensions;
@@ -265,6 +270,15 @@
 				F8658C93249320670077CFF6 /* StoryboardFactory+NamingConstructor.swift */,
 			);
 			path = Navigation;
+			sourceTree = "<group>";
+		};
+		F885B35C2493418600D7A782 /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+				F885B35D2493419700D7A782 /* String+EmptyChecking.swift */,
+				F885B35F2493432800D7A782 /* Collection+Additionals.swift */,
+			);
+			path = Foundation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -509,6 +523,7 @@
 				F8658C94249320670077CFF6 /* StoryboardFactory+NamingConstructor.swift in Sources */,
 				F8658C9224931FE50077CFF6 /* UIStoryboard+Naming.swift in Sources */,
 				F8658C88249319560077CFF6 /* AppRouterLogger.swift in Sources */,
+				F885B35E2493419700D7A782 /* String+EmptyChecking.swift in Sources */,
 				F8658C85249315840077CFF6 /* UIViewController+ClassName.swift in Sources */,
 				F80D113A249302D300C212EB /* ViewController.swift in Sources */,
 				F885B35B2493342F00D7A782 /* AnyDestionationStep.swift in Sources */,
@@ -517,6 +532,7 @@
 				F80D1138249302D300C212EB /* AppDelegate.swift in Sources */,
 				F8658C8F24931F180077CFF6 /* Route.swift in Sources */,
 				F83CB0A224932EC400D28CF3 /* AppRouter.swift in Sources */,
+				F885B3602493432800D7A782 /* Collection+Additionals.swift in Sources */,
 				F8658C83249311C90077CFF6 /* UIView+Nib.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
