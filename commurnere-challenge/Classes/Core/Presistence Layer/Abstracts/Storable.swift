@@ -10,7 +10,7 @@ import Foundation
 
 
 /// Abstract `Storable`
-/// The purpose of this abstract is to store and retreive in Presistence Layer.
+/// The purpose of this abstract is to store and retreive Entities in Presistence Layer.
 protocol Storable {
     
 }
