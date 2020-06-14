@@ -31,6 +31,7 @@
 		F893663224962EBF00A72E2E /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = F893663124962EBF00A72E2E /* User.swift */; };
 		F8936636249636E500A72E2E /* UserRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8936635249636E500A72E2E /* UserRepository.swift */; };
 		F893663824963F5D00A72E2E /* UserRepositoryUseCases.swift in Sources */ = {isa = PBXBuildFile; fileRef = F893663724963F5D00A72E2E /* UserRepositoryUseCases.swift */; };
+		F893663A2496449D00A72E2E /* AccountRoute.swift in Sources */ = {isa = PBXBuildFile; fileRef = F89366392496449D00A72E2E /* AccountRoute.swift */; };
 		F8AEAB0C2495C3B900B33332 /* Account.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8AEAB0A2495C3B900B33332 /* Account.storyboard */; };
 		F8AEAB122495C48B00B33332 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8AEAB112495C48B00B33332 /* LoginViewController.swift */; };
 		F8AEAB142495C94700B33332 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8AEAB132495C94700B33332 /* LoginViewModel.swift */; };
@@ -98,6 +99,7 @@
 		F893663124962EBF00A72E2E /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		F8936635249636E500A72E2E /* UserRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRepository.swift; sourceTree = "<group>"; };
 		F893663724963F5D00A72E2E /* UserRepositoryUseCases.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRepositoryUseCases.swift; sourceTree = "<group>"; };
+		F89366392496449D00A72E2E /* AccountRoute.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountRoute.swift; sourceTree = "<group>"; };
 		F8AEAB0B2495C3B900B33332 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Account.storyboard; sourceTree = "<group>"; };
 		F8AEAB112495C48B00B33332 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		F8AEAB132495C94700B33332 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
@@ -385,6 +387,7 @@
 		F8AEAB0E2495C41900B33332 /* Navigation Route */ = {
 			isa = PBXGroup;
 			children = (
+				F89366392496449D00A72E2E /* AccountRoute.swift */,
 			);
 			path = "Navigation Route";
 			sourceTree = "<group>";
@@ -688,6 +691,7 @@
 				F8AEAB242495E0E400B33332 /* Storage.swift in Sources */,
 				F8658C88249319560077CFF6 /* AppRouterLogger.swift in Sources */,
 				F8AEAB2D2495F09400B33332 /* RealmDataManager.swift in Sources */,
+				F893663A2496449D00A72E2E /* AccountRoute.swift in Sources */,
 				F885B35E2493419700D7A782 /* String+EmptyChecking.swift in Sources */,
 				F8AEAB182495D14C00B33332 /* AlertableView.swift in Sources */,
 				F8658C85249315840077CFF6 /* UIViewController+ClassName.swift in Sources */,
