@@ -29,7 +29,7 @@ struct RealmProvider: RealmProviderProtocol {
     }
     
     static let `default` : RealmProvider = {
-        var config = Realm.Configuration(inMemoryIdentifier: "com.test.realm.memory", schemaVersion: 1)
+        var config = Realm.Configuration(schemaVersion: 1)
         if let filePath = try? URL.applicationSupportDirectoryURL().appendingPathComponent("realm.db") {
             config.fileURL = filePath
         }

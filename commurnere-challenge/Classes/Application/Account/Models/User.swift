@@ -32,8 +32,19 @@ class User: Object {
     /// <#Description#>
     @objc dynamic var password: String = ""
     
+    @objc dynamic var roleValue: Int = 1
+    
     /// <#Description#>
-    @objc dynamic var role : Role = .regular
+    var role : Role {
+    
+        get {
+            return Role(rawValue: roleValue) ?? .regular
+        }
+        
+        set {
+            roleValue = role.rawValue
+        }
+    }
     
     
     /// <#Description#>

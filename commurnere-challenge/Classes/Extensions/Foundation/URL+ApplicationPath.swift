@@ -23,9 +23,11 @@ extension URL {
     }
     
     static func getSearchingPath(for searchingPath : FileManager.SearchPathDirectory = .applicationSupportDirectory) throws -> URL {
-        guard let path = FileManager.default.urls(for: searchingPath, in: .userDomainMask).first else {
+        guard let path = FileManager.default.urls(for: searchingPath, in: .userDomainMask).last else {
             throw POSIXError(.ENOENT)
         }
+        
+        try FileManager.default.createDirectory(at: path, withIntermediateDirectories: true, attributes: nil)
         
         return path
     }
