@@ -11,7 +11,6 @@
 		9A076872DB72062D32B52DE1 /* Pods_commurnere_challengeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFB934664BF02F107EEB8084 /* Pods_commurnere_challengeTests.framework */; };
 		D84E743151E51D94C9FD0164 /* Pods_commurnere_challenge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93BF4C71AFB4B2AFF5E921DB /* Pods_commurnere_challenge.framework */; };
 		F80D1138249302D300C212EB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F80D1137249302D300C212EB /* AppDelegate.swift */; };
-		F80D113A249302D300C212EB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F80D1139249302D300C212EB /* ViewController.swift */; };
 		F80D113D249302D300C212EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F80D113B249302D300C212EB /* Main.storyboard */; };
 		F80D113F249302D400C212EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F80D113E249302D400C212EB /* Assets.xcassets */; };
 		F80D1142249302D400C212EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F80D1140249302D400C212EB /* LaunchScreen.storyboard */; };
@@ -60,7 +59,6 @@
 		E5AC5A93EEB97653BFB3D145 /* Pods-commurnere-challenge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-commurnere-challenge.release.xcconfig"; path = "Target Support Files/Pods-commurnere-challenge/Pods-commurnere-challenge.release.xcconfig"; sourceTree = "<group>"; };
 		F80D1134249302D300C212EB /* commurnere-challenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "commurnere-challenge.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F80D1137249302D300C212EB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F80D1139249302D300C212EB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F80D113C249302D300C212EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F80D113E249302D400C212EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F80D1141249302D400C212EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -162,11 +160,7 @@
 			isa = PBXGroup;
 			children = (
 				F8658C7E249310E90077CFF6 /* Classes */,
-				F80D1137249302D300C212EB /* AppDelegate.swift */,
-				F80D1139249302D300C212EB /* ViewController.swift */,
-				F80D113B249302D300C212EB /* Main.storyboard */,
-				F80D113E249302D400C212EB /* Assets.xcassets */,
-				F80D1140249302D400C212EB /* LaunchScreen.storyboard */,
+				F8AEAB022495B60300B33332 /* Resources */,
 				F80D1143249302D400C212EB /* Info.plist */,
 			);
 			path = "commurnere-challenge";
@@ -193,6 +187,7 @@
 		F8658C7E249310E90077CFF6 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				F885B3612495B57100D7A782 /* Application */,
 				F8658C7F249310F20077CFF6 /* Navigation */,
 				F8658C80249311AF0077CFF6 /* Extensions */,
 				F8658C89249319820077CFF6 /* Utilites */,
@@ -279,6 +274,24 @@
 				F885B35F2493432800D7A782 /* Collection+Additionals.swift */,
 			);
 			path = Foundation;
+			sourceTree = "<group>";
+		};
+		F885B3612495B57100D7A782 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				F80D1137249302D300C212EB /* AppDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		F8AEAB022495B60300B33332 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F80D113B249302D300C212EB /* Main.storyboard */,
+				F80D113E249302D400C212EB /* Assets.xcassets */,
+				F80D1140249302D400C212EB /* LaunchScreen.storyboard */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -525,7 +538,6 @@
 				F8658C88249319560077CFF6 /* AppRouterLogger.swift in Sources */,
 				F885B35E2493419700D7A782 /* String+EmptyChecking.swift in Sources */,
 				F8658C85249315840077CFF6 /* UIViewController+ClassName.swift in Sources */,
-				F80D113A249302D300C212EB /* ViewController.swift in Sources */,
 				F885B35B2493342F00D7A782 /* AnyDestionationStep.swift in Sources */,
 				F8658C8C24931A490077CFF6 /* AppLogger.swift in Sources */,
 				F885B3592493334B00D7A782 /* AppRouterableProtocol.swift in Sources */,
