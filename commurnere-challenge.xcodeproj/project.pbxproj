@@ -28,6 +28,7 @@
 		F885B35B2493342F00D7A782 /* AnyDestionationStep.swift in Sources */ = {isa = PBXBuildFile; fileRef = F885B35A2493342F00D7A782 /* AnyDestionationStep.swift */; };
 		F885B35E2493419700D7A782 /* String+EmptyChecking.swift in Sources */ = {isa = PBXBuildFile; fileRef = F885B35D2493419700D7A782 /* String+EmptyChecking.swift */; };
 		F885B3602493432800D7A782 /* Collection+Additionals.swift in Sources */ = {isa = PBXBuildFile; fileRef = F885B35F2493432800D7A782 /* Collection+Additionals.swift */; };
+		F893663224962EBF00A72E2E /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = F893663124962EBF00A72E2E /* User.swift */; };
 		F8AEAB0C2495C3B900B33332 /* Account.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8AEAB0A2495C3B900B33332 /* Account.storyboard */; };
 		F8AEAB122495C48B00B33332 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8AEAB112495C48B00B33332 /* LoginViewController.swift */; };
 		F8AEAB142495C94700B33332 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8AEAB132495C94700B33332 /* LoginViewModel.swift */; };
@@ -92,6 +93,7 @@
 		F885B35A2493342F00D7A782 /* AnyDestionationStep.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyDestionationStep.swift; sourceTree = "<group>"; };
 		F885B35D2493419700D7A782 /* String+EmptyChecking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+EmptyChecking.swift"; sourceTree = "<group>"; };
 		F885B35F2493432800D7A782 /* Collection+Additionals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Collection+Additionals.swift"; sourceTree = "<group>"; };
+		F893663124962EBF00A72E2E /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		F8AEAB0B2495C3B900B33332 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Account.storyboard; sourceTree = "<group>"; };
 		F8AEAB112495C48B00B33332 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		F8AEAB132495C94700B33332 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
@@ -353,6 +355,7 @@
 		F8AEAB062495BAF300B33332 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				F893663124962EBF00A72E2E /* User.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -691,6 +694,7 @@
 				F8AEAB292495E65200B33332 /* RealmProvider.swift in Sources */,
 				F8658C8F24931F180077CFF6 /* Route.swift in Sources */,
 				F83CB0A224932EC400D28CF3 /* AppRouter.swift in Sources */,
+				F893663224962EBF00A72E2E /* User.swift in Sources */,
 				F8AEAB1C2495D64900B33332 /* UIViewController+Alertable.swift in Sources */,
 				F885B3602493432800D7A782 /* Collection+Additionals.swift in Sources */,
 				F8658C83249311C90077CFF6 /* UIView+Nib.swift in Sources */,
