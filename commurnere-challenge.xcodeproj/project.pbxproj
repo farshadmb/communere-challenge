@@ -33,6 +33,8 @@
 		F8AEAB142495C94700B33332 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8AEAB132495C94700B33332 /* LoginViewModel.swift */; };
 		F8AEAB182495D14C00B33332 /* AlertableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8AEAB172495D14C00B33332 /* AlertableView.swift */; };
 		F8AEAB1C2495D64900B33332 /* UIViewController+Alertable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8AEAB1B2495D64900B33332 /* UIViewController+Alertable.swift */; };
+		F8AEAB222495DFAB00B33332 /* Storable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8AEAB212495DFAB00B33332 /* Storable.swift */; };
+		F8AEAB242495E0E400B33332 /* Storage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8AEAB232495E0E400B33332 /* Storage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -91,6 +93,8 @@
 		F8AEAB132495C94700B33332 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
 		F8AEAB172495D14C00B33332 /* AlertableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertableView.swift; sourceTree = "<group>"; };
 		F8AEAB1B2495D64900B33332 /* UIViewController+Alertable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Alertable.swift"; sourceTree = "<group>"; };
+		F8AEAB212495DFAB00B33332 /* Storable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storable.swift; sourceTree = "<group>"; };
+		F8AEAB232495E0E400B33332 /* Storage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -354,6 +358,7 @@
 		F8AEAB082495BBB300B33332 /* Core */ = {
 			isa = PBXGroup;
 			children = (
+				F8AEAB1F2495DF4000B33332 /* Presistence Layer */,
 				F8AEAB092495BBC300B33332 /* Services */,
 			);
 			path = Core;
@@ -387,6 +392,23 @@
 				F8AEAB172495D14C00B33332 /* AlertableView.swift */,
 			);
 			path = Protocols;
+			sourceTree = "<group>";
+		};
+		F8AEAB1F2495DF4000B33332 /* Presistence Layer */ = {
+			isa = PBXGroup;
+			children = (
+				F8AEAB202495DF7700B33332 /* Abstracts */,
+			);
+			path = "Presistence Layer";
+			sourceTree = "<group>";
+		};
+		F8AEAB202495DF7700B33332 /* Abstracts */ = {
+			isa = PBXGroup;
+			children = (
+				F8AEAB212495DFAB00B33332 /* Storable.swift */,
+				F8AEAB232495E0E400B33332 /* Storage.swift */,
+			);
+			path = Abstracts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -632,12 +654,14 @@
 				F8AEAB122495C48B00B33332 /* LoginViewController.swift in Sources */,
 				F8658C94249320670077CFF6 /* StoryboardFactory+NamingConstructor.swift in Sources */,
 				F8658C9224931FE50077CFF6 /* UIStoryboard+Naming.swift in Sources */,
+				F8AEAB242495E0E400B33332 /* Storage.swift in Sources */,
 				F8658C88249319560077CFF6 /* AppRouterLogger.swift in Sources */,
 				F885B35E2493419700D7A782 /* String+EmptyChecking.swift in Sources */,
 				F8AEAB182495D14C00B33332 /* AlertableView.swift in Sources */,
 				F8658C85249315840077CFF6 /* UIViewController+ClassName.swift in Sources */,
 				F885B35B2493342F00D7A782 /* AnyDestionationStep.swift in Sources */,
 				F8658C8C24931A490077CFF6 /* AppLogger.swift in Sources */,
+				F8AEAB222495DFAB00B33332 /* Storable.swift in Sources */,
 				F8AEAB142495C94700B33332 /* LoginViewModel.swift in Sources */,
 				F885B3592493334B00D7A782 /* AppRouterableProtocol.swift in Sources */,
 				F80D1138249302D300C212EB /* AppDelegate.swift in Sources */,
