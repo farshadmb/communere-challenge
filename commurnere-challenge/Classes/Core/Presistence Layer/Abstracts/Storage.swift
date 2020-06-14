@@ -8,73 +8,87 @@
 
 import Foundation
 
-/// <#Description#>
+/// CreatableStorage Abstract
 protocol CreatableStorage {
     
-    /// <#Description#>
+    /// Create a new object with default values
     ///
     /// - Parameters:
-    ///   - model: <#model description#>
-    ///   - completion: <#completion description#>
-    /// - Throws: <#throws value description#>
+    ///   - model: the type of object
+    ///   - completion: a completion block that return an object that is conformed to the `Storable` protocol.
+    /// - Throws: throw an error object which describe more about occured error.
     func create<T: Storable>(_ model: T.Type, completion:@escaping (T) -> Void) throws
 }
 
 
-/// <#Description#>
+/// SavableStorage Abstract
 protocol SavableStorage {
     
-    /// <#Description#>
+    /// Save an object that is conformed to the `Storable` protocol
     ///
-    /// - Parameter object: <#object description#>
-    /// - Throws: <#throws value description#>
+    /// - Parameter object: an object that is conformed to the `Storable`.
+    /// - Throws: throw an error when saving operation has been failed.
     func save(object: Storable) throws
 }
 
-/// <#Description#>
+/// UpdatableStorage Abstract
 protocol UpdatableStorage {
     
-    /// <#Description#>
+    /// Update the object which is conformed to the `Storable` protocol.
     ///
-    /// - Parameter object: <#object description#>
-    /// - Throws: <#throws value description#>
+    /// - Parameter object: the `Storable` conformed object.
+    /// - Throws: throw the proper error when update failed.
     func update(object: Storable) throws
 }
 
 
-/// <#Description#>
+/// DeletableStorage Abstract
 protocol DeletableStorage {
     
-    /// <#Description#>
+    /// Delete an object that is conformed to the `Storable` protocol
     ///
     /// - Parameter object: <#object description#>
-    /// - Throws: <#throws value description#>
+    /// - Throws: throw an error when operation failed.
     func delete(object: Storable) throws
     
     
-    /// <#Description#>
+    /// Delete an object that is conformed to the `Storable` protocol
     ///
-    /// - Parameter object: <#object description#>
-    /// - Throws: <#throws value description#>
+    /// - Parameter object: the storable object
+    /// - Throws: throw an error when operation failed.
     func delete(object: [Storable]) throws
     
-    /// <#Description#>
+    /// Delete all objects that are conformed to the `Storable` protocol
     ///
     /// - Parameter model: <#model description#>
-    /// - Throws: <#throws value description#>
+    /// - Throws: throw an error when operation failed.
     func deleteAll<T: Storable> (_ model: T.Type) throws
 }
 
+/// Abstract `DeletableStorage`
+extension DeletableStorage {
+    
+    func delete(object: [Storable]) throws {
+        // make delete object method to optional.
+    }
+}
+
+/// Abstract `FetchableStorage`
 protocol FetchableStorage {
     
-    /// <#Description#>
+    /// The `Sort` type contain `key` and `ascending` object
+    typealias Sort = (key:String, ascending:Bool)
+    
+    ///  Fetch and return a list of objects that are conformed to the `Storable` protocol.
     ///
     /// - Parameters:
     ///   - type: <#type description#>
-    ///   - predicate: <#predicate description#>
-    ///   - completion: <#completion description#>
+    ///   - predicate: The predicate object of 'NSPredicate'
+    ///   - sort: An sort value which the result sorts base on.
+    ///   - completion: The completion block return a list of objects that are conformed to the `Storable` protocol
     /// - Throws: <#throws value description#>
-    func fetch<T: Storable> (type: T.Type, predicate: NSPredicate?, completion: ([T]) -> ()) throws
+    func fetch<T: Storable> (type: T.Type, predicate: NSPredicate?, sort: Sort?, completion: ([T]) -> ()) throws
 }
 
+/// The `Storage` Type combine all abstracts in this file.
 typealias Storage = CreatableStorage & SavableStorage & UpdatableStorage & DeletableStorage & FetchableStorage
