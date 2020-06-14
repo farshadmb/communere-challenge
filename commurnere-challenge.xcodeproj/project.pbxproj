@@ -28,6 +28,7 @@
 		F885B35B2493342F00D7A782 /* AnyDestionationStep.swift in Sources */ = {isa = PBXBuildFile; fileRef = F885B35A2493342F00D7A782 /* AnyDestionationStep.swift */; };
 		F885B35E2493419700D7A782 /* String+EmptyChecking.swift in Sources */ = {isa = PBXBuildFile; fileRef = F885B35D2493419700D7A782 /* String+EmptyChecking.swift */; };
 		F885B3602493432800D7A782 /* Collection+Additionals.swift in Sources */ = {isa = PBXBuildFile; fileRef = F885B35F2493432800D7A782 /* Collection+Additionals.swift */; };
+		F8AEAB0C2495C3B900B33332 /* Account.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8AEAB0A2495C3B900B33332 /* Account.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -81,6 +82,7 @@
 		F885B35A2493342F00D7A782 /* AnyDestionationStep.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyDestionationStep.swift; sourceTree = "<group>"; };
 		F885B35D2493419700D7A782 /* String+EmptyChecking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+EmptyChecking.swift"; sourceTree = "<group>"; };
 		F885B35F2493432800D7A782 /* Collection+Additionals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Collection+Additionals.swift"; sourceTree = "<group>"; };
+		F8AEAB0B2495C3B900B33332 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Account.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -188,6 +190,7 @@
 			isa = PBXGroup;
 			children = (
 				F885B3612495B57100D7A782 /* Application */,
+				F8AEAB082495BBB300B33332 /* Core */,
 				F8658C7F249310F20077CFF6 /* Navigation */,
 				F8658C80249311AF0077CFF6 /* Extensions */,
 				F8658C89249319820077CFF6 /* Utilites */,
@@ -279,6 +282,7 @@
 		F885B3612495B57100D7A782 /* Application */ = {
 			isa = PBXGroup;
 			children = (
+				F8AEAB032495BA3800B33332 /* Login */,
 				F80D1137249302D300C212EB /* AppDelegate.swift */,
 			);
 			path = Application;
@@ -290,8 +294,63 @@
 				F80D113B249302D300C212EB /* Main.storyboard */,
 				F80D113E249302D400C212EB /* Assets.xcassets */,
 				F80D1140249302D400C212EB /* LaunchScreen.storyboard */,
+				F8AEAB0A2495C3B900B33332 /* Account.storyboard */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		F8AEAB032495BA3800B33332 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				F8AEAB072495BB9600B33332 /* Repositories */,
+				F8AEAB062495BAF300B33332 /* Models */,
+				F8AEAB052495BAEB00B33332 /* ViewModels */,
+				F8AEAB042495BADA00B33332 /* Views */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		F8AEAB042495BADA00B33332 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F8AEAB052495BAEB00B33332 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		F8AEAB062495BAF300B33332 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F8AEAB072495BB9600B33332 /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+		F8AEAB082495BBB300B33332 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				F8AEAB092495BBC300B33332 /* Services */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		F8AEAB092495BBC300B33332 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -405,6 +464,7 @@
 			files = (
 				F80D1142249302D400C212EB /* LaunchScreen.storyboard in Resources */,
 				F80D113F249302D400C212EB /* Assets.xcassets in Resources */,
+				F8AEAB0C2495C3B900B33332 /* Account.storyboard in Resources */,
 				F80D113D249302D300C212EB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -595,6 +655,14 @@
 				F80D1141249302D400C212EB /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		F8AEAB0A2495C3B900B33332 /* Account.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F8AEAB0B2495C3B900B33332 /* Base */,
+			);
+			name = Account.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
