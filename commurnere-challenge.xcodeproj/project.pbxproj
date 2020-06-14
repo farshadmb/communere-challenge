@@ -37,6 +37,7 @@
 		F8AEAB242495E0E400B33332 /* Storage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8AEAB232495E0E400B33332 /* Storage.swift */; };
 		F8AEAB292495E65200B33332 /* RealmProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8AEAB282495E65200B33332 /* RealmProvider.swift */; };
 		F8AEAB2B2495EAA200B33332 /* URL+ApplicationPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8AEAB2A2495EAA200B33332 /* URL+ApplicationPath.swift */; };
+		F8AEAB2D2495F09400B33332 /* RealmDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8AEAB2C2495F09400B33332 /* RealmDataManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -99,6 +100,7 @@
 		F8AEAB232495E0E400B33332 /* Storage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storage.swift; sourceTree = "<group>"; };
 		F8AEAB282495E65200B33332 /* RealmProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmProvider.swift; sourceTree = "<group>"; };
 		F8AEAB2A2495EAA200B33332 /* URL+ApplicationPath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URL+ApplicationPath.swift"; sourceTree = "<group>"; };
+		F8AEAB2C2495F09400B33332 /* RealmDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmDataManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -421,6 +423,7 @@
 			isa = PBXGroup;
 			children = (
 				F8AEAB282495E65200B33332 /* RealmProvider.swift */,
+				F8AEAB2C2495F09400B33332 /* RealmDataManager.swift */,
 			);
 			path = Database;
 			sourceTree = "<group>";
@@ -670,6 +673,7 @@
 				F8658C9224931FE50077CFF6 /* UIStoryboard+Naming.swift in Sources */,
 				F8AEAB242495E0E400B33332 /* Storage.swift in Sources */,
 				F8658C88249319560077CFF6 /* AppRouterLogger.swift in Sources */,
+				F8AEAB2D2495F09400B33332 /* RealmDataManager.swift in Sources */,
 				F885B35E2493419700D7A782 /* String+EmptyChecking.swift in Sources */,
 				F8AEAB182495D14C00B33332 /* AlertableView.swift in Sources */,
 				F8658C85249315840077CFF6 /* UIViewController+ClassName.swift in Sources */,
