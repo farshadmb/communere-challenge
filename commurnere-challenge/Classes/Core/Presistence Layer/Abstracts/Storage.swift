@@ -87,7 +87,7 @@ protocol FetchableStorage {
     ///   - sort: An sort value which the result sorts base on.
     ///   - completion: The completion block return a list of objects that are conformed to the `Storable` protocol
     /// - Throws: <#throws value description#>
-    func fetch<T: Storable> (type: T.Type, predicate: NSPredicate?, sort: Sort?, completion: ([T]) -> ()) throws
+    func fetch<T: Storable> (type: T.Type, predicate: NSPredicate?, sort: Sort?, completion:@escaping ([T]) -> ()) throws
 }
 
 /// The `Storage` Type combine all abstracts in this file.

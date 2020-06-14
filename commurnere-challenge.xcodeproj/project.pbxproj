@@ -38,6 +38,7 @@
 		F8AEAB292495E65200B33332 /* RealmProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8AEAB282495E65200B33332 /* RealmProvider.swift */; };
 		F8AEAB2B2495EAA200B33332 /* URL+ApplicationPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8AEAB2A2495EAA200B33332 /* URL+ApplicationPath.swift */; };
 		F8AEAB2D2495F09400B33332 /* RealmDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8AEAB2C2495F09400B33332 /* RealmDataManager.swift */; };
+		F8AEAB3024960BDE00B33332 /* BaseDataRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8AEAB2F24960BDE00B33332 /* BaseDataRepository.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -101,6 +102,7 @@
 		F8AEAB282495E65200B33332 /* RealmProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmProvider.swift; sourceTree = "<group>"; };
 		F8AEAB2A2495EAA200B33332 /* URL+ApplicationPath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URL+ApplicationPath.swift"; sourceTree = "<group>"; };
 		F8AEAB2C2495F09400B33332 /* RealmDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmDataManager.swift; sourceTree = "<group>"; };
+		F8AEAB2F24960BDE00B33332 /* BaseDataRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseDataRepository.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -365,17 +367,10 @@
 		F8AEAB082495BBB300B33332 /* Core */ = {
 			isa = PBXGroup;
 			children = (
+				F8AEAB2E249609DA00B33332 /* Repository */,
 				F8AEAB1F2495DF4000B33332 /* Presistence Layer */,
-				F8AEAB092495BBC300B33332 /* Services */,
 			);
 			path = Core;
-			sourceTree = "<group>";
-		};
-		F8AEAB092495BBC300B33332 /* Services */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Services;
 			sourceTree = "<group>";
 		};
 		F8AEAB0E2495C41900B33332 /* Navigation Route */ = {
@@ -426,6 +421,14 @@
 				F8AEAB2C2495F09400B33332 /* RealmDataManager.swift */,
 			);
 			path = Database;
+			sourceTree = "<group>";
+		};
+		F8AEAB2E249609DA00B33332 /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				F8AEAB2F24960BDE00B33332 /* BaseDataRepository.swift */,
+			);
+			path = Repository;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -671,6 +674,7 @@
 				F8AEAB122495C48B00B33332 /* LoginViewController.swift in Sources */,
 				F8658C94249320670077CFF6 /* StoryboardFactory+NamingConstructor.swift in Sources */,
 				F8658C9224931FE50077CFF6 /* UIStoryboard+Naming.swift in Sources */,
+				F8AEAB3024960BDE00B33332 /* BaseDataRepository.swift in Sources */,
 				F8AEAB242495E0E400B33332 /* Storage.swift in Sources */,
 				F8658C88249319560077CFF6 /* AppRouterLogger.swift in Sources */,
 				F8AEAB2D2495F09400B33332 /* RealmDataManager.swift in Sources */,
