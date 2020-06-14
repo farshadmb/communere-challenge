@@ -42,3 +42,5 @@ extension Routerable where Self: UIWindow {
     }
     
 }
+
+extension UIWindow: Routerable {}

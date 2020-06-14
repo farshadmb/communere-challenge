@@ -31,6 +31,7 @@ target 'commurnere-challenge' do
   pod 'RxDataSources'
   pod 'RxKeyboard'
   pod 'RxSwiftExt'
+  pod 'RxRealm'
 
   target 'commurnere-challengeTests' do
     inherit! :search_paths
