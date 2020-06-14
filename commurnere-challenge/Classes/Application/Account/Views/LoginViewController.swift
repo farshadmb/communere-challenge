@@ -18,6 +18,8 @@ class LoginViewController: UIViewController, AlertableView, Routerable {
     @IBOutlet weak var submitButton: UIButton!
     @IBOutlet weak var registerButton: UIButton!
     
+    var controllers : [MDCTextInputControllerBase] = []
+    
     var viewModel: LoginViewModel?
     
     let disposeBag = DisposeBag()
@@ -28,7 +30,7 @@ class LoginViewController: UIViewController, AlertableView, Routerable {
         try? bindingViewModel()
         
         registerButton.rx.tap.bind {[unowned self] _  in
-            //TODO: navigate to sign up view
+            try? self.router.navigate(to: AccountRoute.register, with: nil)
         }.disposed(by: disposeBag)
         // Do any additional setup after loading the view.
     }
@@ -48,8 +50,14 @@ class LoginViewController: UIViewController, AlertableView, Routerable {
         usernameTextField.autocorrectionType = .no
         usernameTextField.returnKeyType = .next
         
+        controllers += [MDCTextInputControllerUnderline(textInput: usernameTextField)]
+        
         passwordTextField.isSecureTextEntry = true
         passwordTextField.returnKeyType = .go
+        
+        controllers += [MDCTextInputControllerUnderline(textInput: passwordTextField)]
+        
+        title = NSLocalizedString("Login", comment: "")
         
     }
     
@@ -65,14 +73,19 @@ class LoginViewController: UIViewController, AlertableView, Routerable {
         viewModel.isValid.drive(submitButton.rx.isEnabled).disposed(by: disposeBag)
         
         submitButton.rx.tap
-            .flatMapLatest(viewModel.login)
-            .subscribeOn(DriverSharingStrategy.scheduler)
-            .subscribe(onNext: {[unowned self] (result) in
+            .flatMapLatest { _ in
+                return viewModel.login()
+            }
+            .debug()
+            .bind(onNext: {[unowned self] result in
                 switch result {
                 case .success(let value):
                     guard value else {
                         return
                     }
+                    self.presentAlertView(withMessage: "Hello Dear User", actionTitle: "What's up", actionHandler: {
+                        
+                    })
                 //TODO: Navigate to Next steps
                 case .failure(let error):
                     self.presentAlertView(withMessage: error.localizedDescription)

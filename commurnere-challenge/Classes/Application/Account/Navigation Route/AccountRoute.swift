@@ -22,7 +22,13 @@ struct AccountRoute: Route {
                             factory: StoryboardFactory<LoginViewController,Any?>(name: .account,
                                                                                  identifier: LoginViewController.className))
             .adding(InlineContextTask<LoginViewController,Optional> { viewController, context in
-                viewController.viewModel = LoginViewModel(usersRepository: UserRepository(manager: RealmDataManager.default))
+                //uncomment this code and build and run for create admin user
+//                let adminUser = User(id: 1, username: "admin", password: "deb058ddc1029e214f4ac76ff25df3c4",
+//                                     role: .admin, fullName: "Admin", imagePath: nil)
+//                let userRepository = UserRepository(createAdminUser: adminUser, manager: RealmDataManager.default)
+                guard !viewController.isViewLoaded else { return }
+                let userRepository = UserRepository(manager: RealmDataManager.default)
+                viewController.viewModel = LoginViewModel(usersRepository: userRepository)
             })
             .using(UINavigationController.push())
             .from(singleStep)
@@ -32,11 +38,16 @@ struct AccountRoute: Route {
     
     //
     static let register: DestinationStep<UIViewController,Any?> = {
+/** StoryboardFactory<UIViewController,Any?>(name: .account,
+ identifier: UIViewController.className)
+ */
         return StepAssembly(finder: NilFinder(),
-                            factory: StoryboardFactory<UIViewController,Any?>(name: .account,
-                                                                              identifier: UIViewController.className))
+                            factory: ClassFactory<UIViewController,Any?>())
             .adding(InlineContextTask<UIViewController,Optional> { viewController, context in
                 print(viewController,context)
+                //FIXME: remove this template code.
+                viewController.view.backgroundColor = .white
+                viewController.title = "Sign up"
             })
             .using(UINavigationController.push())
             .assemble(from: AccountRoute.login.expectingContainer())

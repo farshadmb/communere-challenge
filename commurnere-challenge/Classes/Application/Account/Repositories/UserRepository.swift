@@ -12,6 +12,14 @@ import RxSwift
 /// <#Description#>
 class UserRepository: BaseDataRepository<User> {
     
+    convenience init(createAdminUser user:User, manager: Storage) {
+        self.init(manager:manager)
+        do { try manager.save(object:user) }
+        catch {
+            print(error)
+        }
+    }
+    
 }
 
 // MARK: - UserRepositoryUseCases Implementation.
