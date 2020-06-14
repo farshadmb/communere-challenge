@@ -35,6 +35,8 @@
 		F8AEAB1C2495D64900B33332 /* UIViewController+Alertable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8AEAB1B2495D64900B33332 /* UIViewController+Alertable.swift */; };
 		F8AEAB222495DFAB00B33332 /* Storable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8AEAB212495DFAB00B33332 /* Storable.swift */; };
 		F8AEAB242495E0E400B33332 /* Storage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8AEAB232495E0E400B33332 /* Storage.swift */; };
+		F8AEAB292495E65200B33332 /* RealmProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8AEAB282495E65200B33332 /* RealmProvider.swift */; };
+		F8AEAB2B2495EAA200B33332 /* URL+ApplicationPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8AEAB2A2495EAA200B33332 /* URL+ApplicationPath.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -95,6 +97,8 @@
 		F8AEAB1B2495D64900B33332 /* UIViewController+Alertable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Alertable.swift"; sourceTree = "<group>"; };
 		F8AEAB212495DFAB00B33332 /* Storable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storable.swift; sourceTree = "<group>"; };
 		F8AEAB232495E0E400B33332 /* Storage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storage.swift; sourceTree = "<group>"; };
+		F8AEAB282495E65200B33332 /* RealmProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmProvider.swift; sourceTree = "<group>"; };
+		F8AEAB2A2495EAA200B33332 /* URL+ApplicationPath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URL+ApplicationPath.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -288,6 +292,7 @@
 			children = (
 				F885B35D2493419700D7A782 /* String+EmptyChecking.swift */,
 				F885B35F2493432800D7A782 /* Collection+Additionals.swift */,
+				F8AEAB2A2495EAA200B33332 /* URL+ApplicationPath.swift */,
 			);
 			path = Foundation;
 			sourceTree = "<group>";
@@ -398,6 +403,7 @@
 			isa = PBXGroup;
 			children = (
 				F8AEAB202495DF7700B33332 /* Abstracts */,
+				F8AEAB272495E61B00B33332 /* Database */,
 			);
 			path = "Presistence Layer";
 			sourceTree = "<group>";
@@ -409,6 +415,14 @@
 				F8AEAB232495E0E400B33332 /* Storage.swift */,
 			);
 			path = Abstracts;
+			sourceTree = "<group>";
+		};
+		F8AEAB272495E61B00B33332 /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				F8AEAB282495E65200B33332 /* RealmProvider.swift */,
+			);
+			path = Database;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -660,11 +674,13 @@
 				F8AEAB182495D14C00B33332 /* AlertableView.swift in Sources */,
 				F8658C85249315840077CFF6 /* UIViewController+ClassName.swift in Sources */,
 				F885B35B2493342F00D7A782 /* AnyDestionationStep.swift in Sources */,
+				F8AEAB2B2495EAA200B33332 /* URL+ApplicationPath.swift in Sources */,
 				F8658C8C24931A490077CFF6 /* AppLogger.swift in Sources */,
 				F8AEAB222495DFAB00B33332 /* Storable.swift in Sources */,
 				F8AEAB142495C94700B33332 /* LoginViewModel.swift in Sources */,
 				F885B3592493334B00D7A782 /* AppRouterableProtocol.swift in Sources */,
 				F80D1138249302D300C212EB /* AppDelegate.swift in Sources */,
+				F8AEAB292495E65200B33332 /* RealmProvider.swift in Sources */,
 				F8658C8F24931F180077CFF6 /* Route.swift in Sources */,
 				F83CB0A224932EC400D28CF3 /* AppRouter.swift in Sources */,
 				F8AEAB1C2495D64900B33332 /* UIViewController+Alertable.swift in Sources */,
