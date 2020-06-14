@@ -1,0 +1,215 @@
+{
+  "warnings": [
+    {
+      "file": "/Volumes/WorkPrivateHD/Projects/Xcode Projects/communere-challenge/commurnere-challenge/Classes/Application/Account/Models/User.swift",
+      "line": 22,
+      "symbol": "User.Role.admin",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/WorkPrivateHD/Projects/Xcode Projects/communere-challenge/commurnere-challenge/Classes/Application/Account/Models/User.swift",
+      "line": 23,
+      "symbol": "User.Role.regular",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/WorkPrivateHD/Projects/Xcode Projects/communere-challenge/commurnere-challenge/Classes/Application/Account/Models/User.swift",
+      "line": 35,
+      "symbol": "User.roleValue",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/WorkPrivateHD/Projects/Xcode Projects/communere-challenge/commurnere-challenge/Classes/Application/Account/Navigation Route/AccountRoute.swift",
+      "line": 15,
+      "symbol": "AccountRoute.login",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/WorkPrivateHD/Projects/Xcode Projects/communere-challenge/commurnere-challenge/Classes/Application/Account/Navigation Route/AccountRoute.swift",
+      "line": 40,
+      "symbol": "AccountRoute.register",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/WorkPrivateHD/Projects/Xcode Projects/communere-challenge/commurnere-challenge/Classes/Application/Account/Repositories/UserRepository.swift",
+      "line": 15,
+      "symbol": "UserRepository.init(createAdminUser:manager:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/WorkPrivateHD/Projects/Xcode Projects/communere-challenge/commurnere-challenge/Classes/Application/Account/Repositories/UserRepositoryUseCases.swift",
+      "line": 12,
+      "symbol": "UserRepositoryUseCases",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/WorkPrivateHD/Projects/Xcode Projects/communere-challenge/commurnere-challenge/Classes/Application/Account/ViewModels/LoginViewModel.swift",
+      "line": 23,
+      "symbol": "LoginViewModel.isValid",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/WorkPrivateHD/Projects/Xcode Projects/communere-challenge/commurnere-challenge/Classes/Application/Account/ViewModels/LoginViewModel.swift",
+      "line": 39,
+      "symbol": "LoginViewModel.login()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/WorkPrivateHD/Projects/Xcode Projects/communere-challenge/commurnere-challenge/Classes/Application/Account/ViewModels/LoginViewModel.swift",
+      "line": 61,
+      "symbol": "LoginViewModel.LoginError",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/WorkPrivateHD/Projects/Xcode Projects/communere-challenge/commurnere-challenge/Classes/Application/Account/ViewModels/LoginViewModel.swift",
+      "line": 68,
+      "symbol": "LoginViewModel.LoginError",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/WorkPrivateHD/Projects/Xcode Projects/communere-challenge/commurnere-challenge/Classes/Application/Account/Views/LoginViewController.swift",
+      "line": 14,
+      "symbol": "LoginViewController",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/WorkPrivateHD/Projects/Xcode Projects/communere-challenge/commurnere-challenge/Classes/Application/AppDelegate.swift",
+      "line": 12,
+      "symbol": "AppDelegate",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/WorkPrivateHD/Projects/Xcode Projects/communere-challenge/commurnere-challenge/Classes/Core/Presistence Layer/Abstracts/Storage.swift",
+      "line": 71,
+      "symbol": "DeletableStorage.delete(object:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/WorkPrivateHD/Projects/Xcode Projects/communere-challenge/commurnere-challenge/Classes/Core/Presistence Layer/Database/RealmDataManager.swift",
+      "line": 32,
+      "symbol": "RealmDataManager.deinit",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/WorkPrivateHD/Projects/Xcode Projects/communere-challenge/commurnere-challenge/Classes/Core/Presistence Layer/Database/RealmProvider.swift",
+      "line": 12,
+      "symbol": "RealmProviderProtocol",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/WorkPrivateHD/Projects/Xcode Projects/communere-challenge/commurnere-challenge/Classes/Core/Presistence Layer/Database/RealmProvider.swift",
+      "line": 22,
+      "symbol": "RealmProvider.realm",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/WorkPrivateHD/Projects/Xcode Projects/communere-challenge/commurnere-challenge/Classes/Core/Presistence Layer/Database/RealmProvider.swift",
+      "line": 31,
+      "symbol": "RealmProvider.default",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/WorkPrivateHD/Projects/Xcode Projects/communere-challenge/commurnere-challenge/Classes/Extensions/Foundation/String+EmptyChecking.swift",
+      "line": 13,
+      "symbol": "OptionalString",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/WorkPrivateHD/Projects/Xcode Projects/communere-challenge/commurnere-challenge/Classes/Extensions/Foundation/String+EmptyChecking.swift",
+      "line": 20,
+      "symbol": "Optional.isEmptyOrBlank",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/WorkPrivateHD/Projects/Xcode Projects/communere-challenge/commurnere-challenge/Classes/Extensions/Foundation/String+EmptyChecking.swift",
+      "line": 28,
+      "symbol": "String.toBool()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/WorkPrivateHD/Projects/Xcode Projects/communere-challenge/commurnere-challenge/Classes/Extensions/Foundation/String+EmptyChecking.swift",
+      "line": 32,
+      "symbol": "String.isEmptyOrBlankString(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/WorkPrivateHD/Projects/Xcode Projects/communere-challenge/commurnere-challenge/Classes/Extensions/Foundation/String+EmptyChecking.swift",
+      "line": 52,
+      "symbol": "String.isEmptyOrBlank",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/WorkPrivateHD/Projects/Xcode Projects/communere-challenge/commurnere-challenge/Classes/Extensions/Foundation/URL+ApplicationPath.swift",
+      "line": 13,
+      "symbol": "URL.applicationSupportDirectoryURL()",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/WorkPrivateHD/Projects/Xcode Projects/communere-challenge/commurnere-challenge/Classes/Extensions/Foundation/URL+ApplicationPath.swift",
+      "line": 17,
+      "symbol": "URL.documentDirectoryURL()",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/WorkPrivateHD/Projects/Xcode Projects/communere-challenge/commurnere-challenge/Classes/Extensions/Foundation/URL+ApplicationPath.swift",
+      "line": 21,
+      "symbol": "URL.cacheDirectoryURL()",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/WorkPrivateHD/Projects/Xcode Projects/communere-challenge/commurnere-challenge/Classes/Extensions/Foundation/URL+ApplicationPath.swift",
+      "line": 25,
+      "symbol": "URL.getSearchingPath(for:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/WorkPrivateHD/Projects/Xcode Projects/communere-challenge/commurnere-challenge/Classes/Extensions/UI Elements/UIStoryboard+Naming.swift",
+      "line": 20,
+      "symbol": "UIStoryboard.Name.account",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/WorkPrivateHD/Projects/Xcode Projects/communere-challenge/commurnere-challenge/Classes/Navigation/AnyDestionationStep.swift",
+      "line": 13,
+      "symbol": "AnyGenericDestinationStep",
+      "symbol_kind": "source.lang.swift.decl.typealias",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/WorkPrivateHD/Projects/Xcode Projects/communere-challenge/commurnere-challenge/Classes/Navigation/AnyDestionationStep.swift",
+      "line": 14,
+      "symbol": "AnyDestinationStep",
+      "symbol_kind": "source.lang.swift.decl.typealias",
+      "warning": "undocumented"
+    }
+  ],
+  "source_directory": "/Volumes/WorkPrivateHD/Projects/Xcode Projects/communere-challenge"
+}
