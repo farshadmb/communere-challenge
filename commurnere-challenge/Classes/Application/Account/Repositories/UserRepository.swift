@@ -24,39 +24,38 @@ extension UserRepository: UserRepositoryUseCases {
     func save(user: User) -> Single<Result<String, Error>> {
         return save(object: user)
             .flatMap({ (string) -> PrimitiveSequence<SingleTrait, Result<String,Error>> in
-                return .just(Result { string })
+                return .just(.success(string))
             })
             .catchError({ (error) -> PrimitiveSequence<SingleTrait, Result<String, Error>> in
-                .just(Result { throw error })
+                return .just(.failure(error))
             })
     }
     
     func update(user: User) -> Single<Result<String, Error>> {
         return update(object: user)
             .flatMap({ (string) -> PrimitiveSequence<SingleTrait, Result<String,Error>> in
-                return .just(Result { string })
+                return .just(.success(string))
             })
             .catchError({ (error) -> PrimitiveSequence<SingleTrait, Result<String, Error>> in
-                .just(Result { throw error })
+                return .just(.failure(error))
             })
     }
     
     func delete(user: User) -> Single<Result<String, Error>> {
         return delete(object: user)
             .flatMap({ (string) -> PrimitiveSequence<SingleTrait, Result<String,Error>> in
-                return .just(Result { string })
+                return .just(.success(string))
             })
             .catchError({ (error) -> PrimitiveSequence<SingleTrait, Result<String, Error>> in
-                .just(Result { throw error })
+                return .just(.failure(error))
             })
     }
     
-    func find(username: String) -> Single<User?> {
+    func find(username: String) -> Observable<User?> {
         return fetchAllUser()
             .flatMapLatest({[weak self] (users) -> Observable<User?> in
                 return self?.find(username: username, in: users) ?? .just(nil)
             })
-        .asSingle()
     }
     
     private func find(username: String,in users: [User]) -> Observable<User?> {

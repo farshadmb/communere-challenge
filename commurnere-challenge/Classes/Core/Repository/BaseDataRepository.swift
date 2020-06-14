@@ -49,7 +49,7 @@ class BaseDataRepository <T> {
             publishSubject.onError(error)
         }
         
-        return publishSubject.asObservable()
+        return publishSubject
         
     }
     

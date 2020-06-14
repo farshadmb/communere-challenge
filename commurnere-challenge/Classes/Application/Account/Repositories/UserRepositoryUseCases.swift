@@ -7,7 +7,7 @@
 //
 
 import Foundation
-import RxSwift 
+import RxSwift
 
 protocol UserRepositoryUseCases {
     
@@ -38,5 +38,5 @@ protocol UserRepositoryUseCases {
     ///
     /// - Parameter username: the username that must be found.
     /// - Returns: return a `User` object if the user exist. otherwise return nil
-    func find(username: String) -> Single<User?>
+    func find(username: String) -> Observable<User?>
 }

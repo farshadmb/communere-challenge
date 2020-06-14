@@ -18,7 +18,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Override point for customization after application launch.
         // just create a logger.
         _ = Logger.default
-        
+        window?.makeKeyAndVisible()
+        try? window?.router.navigate(to: AccountRoute.login, with: nil)
         return true
     }
 
