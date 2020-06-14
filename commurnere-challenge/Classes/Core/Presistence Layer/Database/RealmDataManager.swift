@@ -11,7 +11,7 @@ import RealmSwift
 
 /// The `RealmDataManager` class extended and implemented `Storage` abstract.
 /// The Default DataManager of this application.
-struct RealmDataManager: Storage {
+class RealmDataManager: Storage {
     
     /// Rhe default instace of `RealmDataManager`
     static let `default` = RealmDataManager(provider:RealmProvider.default)
@@ -19,11 +19,19 @@ struct RealmDataManager: Storage {
     /// The Stored Provider object.
     private let provider: RealmProviderProtocol
     
+    /// <#Description#>
+    private var token: NotificationToken?
+    
     /// Constructor
     ///
     /// - Parameter provider: an object is conformed `RealmProviderProtocol` abstract.
     init(provider: RealmProviderProtocol) {
         self.provider = provider
+    }
+    
+    deinit {
+        token?.invalidate()
+        token = nil
     }
     
     // MARK: - Storage Implementation methods
@@ -85,7 +93,7 @@ struct RealmDataManager: Storage {
         }
     }
     
-    func fetch<T>(type: T.Type, predicate: NSPredicate?, sort: Sort?, completion: ([T]) -> ()) throws where T : Storable {
+    func fetch<T>(type: T.Type, predicate: NSPredicate?, sort: Sort?, completion: @escaping ([T]) -> ()) throws where T : Storable {
         
         guard let realm = provider.realm,
             let model = type as? Object.Type else {
@@ -101,7 +109,20 @@ struct RealmDataManager: Storage {
             objects = objects.sorted(byKeyPath: sort.key, ascending: sort.ascending)
         }
         
-        completion(objects.compactMap { $0 as? T } )
+        token?.invalidate()
+        
+        token = objects.observe { changeset in
+            
+            switch changeset {
+            case let .initial(values),
+                 .update(let values, _, _, _):
+                completion(values.compactMap { $0 as? T } )
+                
+            case let .error(error):
+                Logger.errorLog("error occured: \(error)",tag: "RealmDataManager")
+                return
+            }
+        }
         
     }
     
